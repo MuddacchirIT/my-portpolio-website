@@ -8,7 +8,7 @@
 }
 /* header */
 .header{
-    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-image: url(/images/developer.png) , url(/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 
@@ -103,12 +103,20 @@ nav li a{
 .secondary-bg{
     background-color: #FFF8F3;
 }
+.text-center{
+    text-align: center;
+}
 
 /* main styles */
 
 main{
     max-width: 1140px;
     margin: o auto;
+
+}
+
+main section{
+    margin: 100px;
 }
 
 /* about styes */
@@ -116,7 +124,7 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 }
 
 .about-items{
@@ -128,4 +136,19 @@ main{
 
 item-description{
     font-weight: 600;
+}
+
+
+
+/* skills section styles */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px 0px rgb(73, 47, 47);
 }
