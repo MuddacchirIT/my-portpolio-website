@@ -9,7 +9,7 @@
 /* header */
 
 .header{
-    background-image: url(/images/developer.png) , url(/images/header_bg.png);
+    background-image: url(/images/developer.png), url(/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     background-size:9%, 55%; 
@@ -68,7 +68,7 @@ nav ul{
 
 nav ul li{
     list-style: none;
-    margin-right: 51px;
+    margin-right: 50px;
 }
 
 nav li a{
@@ -81,7 +81,7 @@ nav li a{
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 35px 0 230px;
+    margin: 0 25px 0 140px;
 }
 
 .banner-content{
