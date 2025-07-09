@@ -1,115 +1,101 @@
-/* open sans fort */
-.open-sans-normal{
+    /* open sans fort */
+
+    .open-sans-normal{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-/* header */
+  font-variation-settings: "wdth" 100;
+    }
+    /* header section*/
 
-.header{
+    .header{
     background-image: url(/images/developer.png), url(/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    background-size:9%, 55%; 
-}
+    background-size:10%, 55%; 
+        }
 
-/* nav styles */
-
+    /* shared style */
     .text-primary{
         color: #FDE60A;
+        }
+        
+    .secondary-bg{
+    background-color: #FFF8F3;
     }
 
     .dark-2{
         color: #474747;
-    }
+        }
 
     .btn-primary{
         background-color: #FDE60A;
         font-weight: 700;
+        font-size:16px;
         /* I have changed. (original white) */
-        color: black;
+        color: hsl(0, 100%, 2%);
         padding: 18px 35px;
         border-radius: 5px;
         border: none;
+        }
 
-    }
-    
-    .section-title{
-        font-size: 35px;
-        font-weight: 700;
-        color: #181818;
-    }
-
-    .section-description{
-        font-size: 18px;
-        color: #757575;
-    }
-
-    
-nav{
+    /* nav styles */
+    nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* I have changed (original 200px) */
-    margin: 0 120px; 
-}
+    margin: 0px 110px; 
+    }
 
-nav ul{
+    .nav-title{
+        font-weight: 800;
+        font-size: 45px;
+    }
+
+    nav ul{
     display: flex;
     align-items: center;
-}
+    }
 
-.nav-title{
-    font-weight: 800;
-    font-size: 45px;
-}
 
-nav ul li{
+    nav ul li{
     list-style: none;
-    margin-right: 50px;
-}
+    margin-right: 51px;
+    }
 
-nav li a{
+    nav li a{
     text-decoration: none;
-}
+    font-size: 20px;
+    }
 
-/* banner styles */
+    /* banner styles */
 
-
-.banner{
+    .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 25px 0 140px;
-}
+    margin: 0 5px 0 140px;
+    }
 
-.banner-content{
+    .banner-content{
     max-width: 580px;
-}
+    }
 
-.banner-greetings{
+    .banner-greetings{
     font-size: 45px;
     font-weight: 600;
-}
+    }
 
-.banner-title{
-    font-size: 60px;
+    .banner-title{
+    font-size: 59px;
     font-weight: bold;
+    }   
 
-}
-
-.banner-profile-pic{
+    .banner-profile-pic{
     width: 580px;
-}
+    }
 
 
-/* shared styles */
-
-
-.secondary-bg{
-    background-color: #FFF8F3;
-}
 .text-center{
     text-align: center;
 }
@@ -119,32 +105,36 @@ nav li a{
 main{
     max-width: 1140px;
     margin: o auto;
-
-}
+    }
 
 main section{
-    margin: 100px;
-}
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-left: 70px;
+    margin-right: 70px;
+    }
 
 /* about styes */
 
 
 .about{
-    border-radius: 10px;
-    padding: 130px 150px;
+    background-color:#FFF8F3;
+    padding: 30px 30px;
     text-align: center;
-    
-}
+    margin-top: 30px;
+    border-radius: 10px;
+    }
 
 .about-items{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    white-space: 50px;
+    }
 
-}
-
-item-description{
+.item-description{
     font-weight: 600;
-}
+    }
 
 
 
@@ -158,7 +148,19 @@ item-description{
 }
 
 .skill{
+
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 1px 2px 3px 0px rgb(73, 47, 47);
+    box-shadow: 1px 1px 3px 1px rgb(73, 47, 47);
 }
+
+.section-title{
+        font-size: 35px;
+        font-weight: 700;
+        color: #181818;
+    }
+
+    .section-description{
+        font-size: 18px;
+        color: #757575;
+    }
